@@ -1,0 +1,17 @@
+.container {
+    background-color: blue;
+    filter: blur(1px);
+    width: 200px;
+    height: 200px;
+}
+
+.backdrop {
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.2);
+    color: red;
+    backdrop-filter: blur(1px);
+}
+
+.container:hover .backdrop {
+    backdrop-filter: blur(0px);
+}
